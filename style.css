@@ -24,4 +24,16 @@
     bottom: 0;
   }
 
+  .column{
+    float: right;
+    width: 20%;
+    height: 335px;
+    border: 1px solid black;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   
