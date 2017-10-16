@@ -8,6 +8,7 @@
     direction:rtl;
     text-align:right;
     margin: 0;
+    font-family: Arial;
   }
 /* main design */
   header{
@@ -36,4 +37,31 @@
     display: table;
     clear: both;
   }
-  
+  /* end main design */
+  /* design header horizontal menu*/
+  .top-horizontal > ul{
+      list-style: none;
+      padding: 0;
+      margin: 72px 0 0 0 ;            
+      background-color: gray;
+      text-align: center;
+      height: 33px;
+  }
+
+  .top-horizontal > ul > li {
+      display: inline;
+      border-right: 1px solid black;
+  }
+
+  .top-horizontal > ul > li > a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;  
+    font-size: 15px;
+    font-weight: bold;
+    height: 33px;
+    padding: 0 40px;  
+}
+
+ 
+  /* end design header horizontal menu*/
