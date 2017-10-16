@@ -1,1 +1,19 @@
-h1{color:red;}
+/* Exercise PAZ Project Build web site like paz site */
+/* general design */
+*{
+    box-sizing: border-box;
+   }
+
+   body{
+    direction:rtl;
+    text-align:right;
+    margin: 0;
+  }
+/* main design */
+  header{
+    border: 1px solid black;     
+    width: 100%;
+    height: 105px;
+  }
+
+  
