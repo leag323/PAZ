@@ -38,11 +38,12 @@
     clear: both;
   }
   /* end main design */
+
   /* design header horizontal menu*/
   .top-horizontal > ul{
       list-style: none;
       padding: 0;
-      margin: 72px 0 0 0 ;            
+      margin: 72px 0 0 0 ;       
       background-color: gray;
       text-align: center;
       height: 33px;
@@ -63,5 +64,28 @@
     padding: 0 40px;  
 }
 
+.dropdown-menu{
+    position: relative;
+}
+
+.dropdown-content {
+    position: absolute;
+    right: 0; 
+    display: none;  
+    background-color:gray;  
+  }
  
+    .dropdown-menu:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content > a {
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    color: white;    
+    font-size: 15px;  
+    padding-top: 5px;    
+    border-bottom: 1px solid black;
+  }
   /* end design header horizontal menu*/
