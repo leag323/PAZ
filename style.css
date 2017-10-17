@@ -173,15 +173,15 @@
     color: white;
     text-decoration: none;  
     font-size: 14px;    
-    /*height: 33px;*/
+    height: 38px;
     padding: 0 20px;  
 }
 
-/*
-.a-red{
+
+#bottom-a-red{
   color: red;  
 }
-*/
+
 
 .bottom-horizontal > ul > li > a:hover{
   color: #00D9FF;
