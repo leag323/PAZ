@@ -135,7 +135,13 @@
     color: white;    
     font-size: 15px;  
     padding-top: 5px;    
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
   }
   
+  .dropdown-content > a:hover{
+    color: #145E69;
+    text-decoration: underline;
+    font-weight: bold;
+    background: lightgray;
+  }
   /* end design header horizontal menu*/
