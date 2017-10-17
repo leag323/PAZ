@@ -235,4 +235,19 @@ main > .row > .row2 > .column {
 .row2-col-detail > a:hover{
   color: rgb(59,89,152);
 }
+
+/* design row2 column no. 4 */
+.row2-col4{
+  float: right;  
+  border: 1px solid black;
+}
+
+
+.row2-col-div:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* end design row2 column no. 4 */
+
 /* end design main */
