@@ -39,11 +39,32 @@
   }
   /* end main design */
 
+  /* design header search */
+  .search{
+      background-color: gray;            
+      height: 72px;
+  }
+
+  .a-language{
+    color: white;
+    text-decoration: none;    
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 600;    
+  }
+
+  .search > a{
+    border: 1px solid black;
+  }
+  
+  /* end design header search */
+
   /* design header horizontal menu*/
   .top-horizontal > ul{
       list-style: none;
       padding: 0;
-      margin: 72px 0 0 0 ;       
+      /*margin: 72px 0 0 0 ; */
+      margin: 0;
       background-color: gray;
       text-align: center;
       height: 33px;
