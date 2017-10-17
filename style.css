@@ -150,6 +150,7 @@
     background: lightgray;
   }
   /* end design header horizontal menu*/
+  
   /* design footer horizontal menu*/
   .bottom-horizontal > ul {
     list-style: none;
@@ -164,9 +165,9 @@
       display: inline;          
     }
 
-    .bottom-horizontal > ul > li {    
-      border-right: 1px solid black;
-  }
+  .bottom-horizontal > ul > .bottom-li {    
+    border-right: 2px solid white;
+}
 
   .bottom-horizontal > ul > li > a{
     display: inline-block;    
