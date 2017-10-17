@@ -27,9 +27,7 @@
   }
   
   .column{
-    float: right;
-    /*width: 20%; */
-    /*height: 335px;*/
+    float: right;    
     border: 1px solid black;
   }
 
@@ -187,15 +185,14 @@
 /* end design footer horizontal menu*/
 
 /*design main */
+.row1-empty-div{
+  width: 160px;
+  height: 365px;  
+}
 .row1-img{
   width: 291px;
-  height: 354px;
+  height: 340px;
   border-bottom-right-radius: 20px;
-  margin: 10px;
-}
-
-.row2-img{
-  width: 250px;
-  height: 110px;   
+  margin: 15px 10px 10px 10px;
 }
 /* end design main */
