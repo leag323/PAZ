@@ -90,9 +90,12 @@
   }
 
   .top-horizontal > ul > li {
-      display: inline;
-      border-right: 1px solid black;
+      display: inline;      
   }
+
+  .top-horizontal > ul > .dropdown-menu {    
+    border-right: 1px solid black;
+}
 
   .top-horizontal > ul > li > a{
     display: inline-block;
@@ -102,6 +105,12 @@
     font-weight: bold;
     height: 33px;
     padding: 0 40px;  
+}
+
+.top-horizontal > ul > li > a:hover{
+  color: #00D9FF;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .dropdown-menu{
@@ -128,4 +137,5 @@
     padding-top: 5px;    
     border-bottom: 1px solid black;
   }
+  
   /* end design header horizontal menu*/
