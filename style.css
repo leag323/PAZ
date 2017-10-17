@@ -9,7 +9,7 @@
     text-align:right;
     margin: 0;
     font-family: Arial;
-    overflow: scroll;
+    /*overflow: scroll; */
   }
 /* main design */
   header{
@@ -185,14 +185,26 @@
 /* end design footer horizontal menu*/
 
 /*design main */
-.row1-empty-div{
+.row1-col-empty-div{
   width: 160px;
   height: 365px;  
 }
-.row1-img{
+.row1-col-img{
   width: 291px;
   height: 340px;
   border-bottom-right-radius: 20px;
   margin: 15px 10px 10px 10px;
+}
+.row2{
+  border: 1px solid green;
+}
+.row2-col-empty-div{
+  width: 160px;
+  height: 250px;
+}
+.row2-col-div > p{
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(87,87,87)
 }
 /* end design main */
