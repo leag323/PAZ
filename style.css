@@ -9,7 +9,7 @@
     text-align:right;
     margin: 0;
     font-family: Arial;
-    /*overflow: scroll; */
+    /*overflow: scroll; */    
   }
 /* main design */
   header{
@@ -28,7 +28,7 @@
   
   .column{
     float: right;    
-    border: 1px solid black;
+    border: 1px solid black;  
   }
 
   .row:after {
@@ -185,6 +185,8 @@
 /* end design footer horizontal menu*/
 
 /*design main */
+
+/* design main first row */
 main > .row > .row1 > .column{
   border: 1px solid red;
 }
@@ -199,6 +201,8 @@ main > .row > .row1 > .column{
   border-bottom-right-radius: 20px;
   margin: 15px 10px 10px 10px;
 }
+
+/* design main second row */
 .row2{
   border: 1px solid green;  
 }
@@ -264,6 +268,10 @@ main > .row > .row2 > .column {
   padding: 10px;      
   color: rgb(114,113,109);
   font-size: 13px;   
+}
+
+.row2-col4-right-col > ul > li > a {
+  color: rgb(59,89,152);
 }
 /* end design row2 column no. 4 */
 
