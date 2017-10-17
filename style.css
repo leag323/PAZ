@@ -54,7 +54,7 @@
   }  
  
   .a-language:hover{
-    color: #00C3FF;
+    color: rgb(59,89,152);
     text-decoration: underline;
     font-weight: bold;
   }
@@ -93,7 +93,7 @@
   }
 
   .top-horizontal > ul > .dropdown-menu {    
-    border-right: 1px solid black;
+    border-right: 1px solid lightgray;
 }
 
   .top-horizontal > ul > li > a{
@@ -107,7 +107,7 @@
 }
 
 .top-horizontal > ul > li > a:hover{
-  color: #00D9FF;
+  color: steelblue;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -138,7 +138,7 @@
   }
   
   .dropdown-content > a:hover{
-    color: #145E69;
+    color: steelblue;
     text-decoration: underline;
     font-weight: bold;
     background: lightgray;
@@ -179,12 +179,16 @@
 
 
 .bottom-horizontal > ul > li > a:hover{
-  color: #00D9FF;
+  color: steelblue;
   text-decoration: underline;  
 }
 /* end design footer horizontal menu*/
 
 /*design main */
+main > .row > .row1 > .column{
+  border: 1px solid red;
+}
+
 .row1-col-empty-div{
   width: 160px;
   height: 365px;  
@@ -196,15 +200,39 @@
   margin: 15px 10px 10px 10px;
 }
 .row2{
-  border: 1px solid green;
+  border: 1px solid green;  
 }
+
+main > .row > .row2 > .column {
+  border: 1px solid blue;  
+}
+
 .row2-col-empty-div{
   width: 160px;
   height: 250px;
 }
+
+.row2-col-div{
+  width: 310px;  
+}
+
+.row2-col-detail{
+  margin-right: 160px;
+}
+
 .row2-col-div > p{
   font-size: 14px;
   font-weight: bold;
-  color: rgb(87,87,87)
+  color: rgb(87,87,87);
+  text-align: center;
+}
+
+.row2-col-detail > a{
+  color: rgb(114,113,109);
+  font-size: 13px;
+}
+
+.row2-col-detail > a:hover{
+  color: rgb(59,89,152);
 }
 /* end design main */
