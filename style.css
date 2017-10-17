@@ -45,18 +45,37 @@
       height: 72px;
   }
 
+ 
   .a-language{
     color: white;
     text-decoration: none;    
     font-size: 13px;
     font-weight: bold;
     margin-right: 600;    
+  }  
+ 
+  .a-language:hover{
+    color: #00C3FF;
+    text-decoration: underline;
+    font-weight: bold;
   }
 
-  .search > a{
-    border: 1px solid black;
+/* design search menu using ul
+  .search-menu > ul{
+    list-style: none;
+    padding: 0;
+    background-color: gray;
   }
-  
+
+  .search-menu > ul > li{
+    display: inline;
+  }
+
+  .search-menu > ul > li > a{
+    display: inline-block;
+    color: white;
+  }
+*/
   /* end design header search */
 
   /* design header horizontal menu*/
