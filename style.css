@@ -184,12 +184,10 @@
 }
 /* end design footer horizontal menu*/
 
-/*design main */
+/*primary design main */
 
-/* design main first row */
 main > .row > .row1 > .column{
-  float: right;
-  border: 1px solid red;
+  float: right;  
 }
 
 .row:after {
@@ -198,7 +196,7 @@ main > .row > .row1 > .column{
   clear: both;
 }
 
-main > .row {
+main {
   width: 900px;
   margin: auto;
 }
@@ -207,11 +205,17 @@ main > .row {
   width: 33%;
 }
 
+.row2-col{
+  width: 33%;
+}
+
+/* end primary design main */
+
+/* design main first row */
 .row1-col-img{
   width: 100%;  
   border-bottom-right-radius: 20px;  
 }
-
 
 /* design main second row */
 .row2{
@@ -220,11 +224,6 @@ main > .row {
 
 main > .row > .row2 > .column {
   border: 1px solid blue;  
-}
-
-.row2-col-empty-div{
-  width: 160px;
-  height: 250px;
 }
 
 .row2-col-div{
@@ -285,5 +284,3 @@ main > .row > .row2 > .column {
   color: rgb(59,89,152);
 }
 /* end design row2 column no. 4 */
-
-/* end design main */
