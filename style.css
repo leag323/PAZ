@@ -251,10 +251,11 @@ main > .row > .row2 > .column {
   color: rgb(0,103,154);
 }
 
-/* design row2 column no. 4 */
-.row2-col4{
+/* design row2 column no. 3 */
+.row2-col3{
   float: right;  
   border: 1px solid black;
+  width: 50%;
 }
 
 .row2-col-div:after {
@@ -263,25 +264,25 @@ main > .row > .row2 > .column {
   clear: both;
 }
 
-.row2-col4-right-col > ul {
+.row2-col3-right-col > ul {
   list-style: none;
   padding: 0;
   margin: 0;    
 }
 
-.row2-col4-right-col > ul > li
+.row2-col3-right-col > ul > li
 {
   text-align: right;  
 }
 
-.row2-col4-right-col > ul > li > a {
+.row2-col3-right-col > ul > li > a {
   display: block;      
   padding: 10px;      
   color: rgb(114,113,109);
   font-size: 13px;   
 }
 
-.row2-col4-right-col > ul > li > a:hover {
+.row2-col3-right-col > ul > li > a:hover {
   color: rgb(0,103,154);
 }
 /* end design row2 column no. 4 */
