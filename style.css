@@ -204,10 +204,12 @@ main {
 
 .row1-col{
   width: 33%;
+  margin-top: 20px
 }
 
 .row2-col{
   width: 33%;
+  margin-top: 10px;
 }
 
 /* end primary design main */
@@ -235,15 +237,30 @@ main > .row > .row2 > .column {
 
 .row2-col-background{
   position: relative;  
+  height: 216px;  
+}
+
+.row2-col-img-bck{
+  width: 100%;
 }
 
 .row2-col-p{
   position: absolute;
   top: 0;  
+  margin-right: 30px;
   font-size: 14px;
   font-weight: bold;
   color: rgb(87,87,87);
 }
+/*
+.row2-col-img{    
+  position: absolute;
+  bottom: 50px;
+  margin-right: 10px;
+}
+
+*/
+
 /*
 .row2-col-detail{
   margin-right: 160px;
@@ -268,6 +285,7 @@ main > .row > .row2 > .column {
 */
 
 /* design row2 column no. 3 */
+/*
 .row2-col3{
   float: right;  
   border: 1px solid black;
@@ -301,4 +319,5 @@ main > .row > .row2 > .column {
 .row2-col3-right-col > ul > li > a:hover {
   color: rgb(0,103,154);
 }
+*/
 /* end design row2 column no. 4 */
