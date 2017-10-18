@@ -8,8 +8,8 @@
     direction:rtl;
     text-align:right;
     margin: 0;
-    font-family: Arial;
-    /*overflow: scroll; */    
+    font-family: Arial;    
+    /*overflow: scroll;*/
   }
 /* main design */
   header{
@@ -30,7 +30,7 @@
     background: linear-gradient(to bottom rgb(170,170,170) rgb(144,144,144));
 
   }
-  
+   
   .column{
     float: right;    
     border: 1px solid black;  
@@ -44,8 +44,7 @@
   /* end main design */
 
   /* design header search */
-  .search{
-      /*background-color: rgb(144,144,144);            */
+  .search{      
       height: 72px;
   }
 
@@ -105,7 +104,7 @@
     font-size: 15px;
     font-weight: bold;
     height: 33px;
-    padding: 0 40px;  
+    padding: 0 20px;  
 }
 
 .top-horizontal > ul > li > a:hover{
