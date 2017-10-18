@@ -204,12 +204,12 @@ main {
 
 .row1-col{
   width: 33%;
-  margin-top: 20px
+ /* margin-top: 20px*/
 }
 
 .row2-col{
   width: 33%;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
 }
 
 /* end primary design main */
@@ -258,7 +258,8 @@ main > .row > .row2 > .column {
 
 .row2-col-detail{
   position: absolute;  
-  bottom: 20px;
+  /*bottom: 20px;*/
+  bottom: 35px;
   margin-right: 150px;
   color: rgb(114,113,109);
   font-size: 13px;
@@ -267,6 +268,7 @@ main > .row > .row2 > .column {
 .row2-col-detail:hover{
   color: rgb(0,103,154);
 }
+
 
 /*
 .row2-col-detail{
@@ -285,39 +287,33 @@ main > .row > .row2 > .column {
 */
 
 /* design row2 column no. 3 */
-/*
-.row2-col3{
-  float: right;  
-  border: 1px solid black;
-  width: 50%;
-}
-
-.row2-col-div:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.row2-col3-right-col > ul {
+.row2-col3-nav{
+  position: absolute;
+  bottom: 70px;  
+  margin-right: 10px;
   list-style: none;
   padding: 0;
-  margin: 0;    
 }
 
-.row2-col3-right-col > ul > li
+.row2-col3-nav > li
 {
   text-align: right;  
 }
 
-.row2-col3-right-col > ul > li > a {
+.row2-col3-nav > li > a {
   display: block;      
-  padding: 10px;      
+  padding: 5px;      
   color: rgb(114,113,109);
   font-size: 13px;   
 }
 
-.row2-col3-right-col > ul > li > a:hover {
+.row2-col3-nav > li > a:hover {
   color: rgb(0,103,154);
 }
-*/
-/* end design row2 column no. 4 */
+
+.row2-col3-img{
+  position: absolute;
+  bottom: 0px;
+  margin-right: 180px;
+}
+/* end design row2 column no. 3 */
