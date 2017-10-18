@@ -188,19 +188,30 @@
 
 /* design main first row */
 main > .row > .row1 > .column{
+  float: right;
   border: 1px solid red;
 }
 
-.row1-col-empty-div{
-  width: 160px;
-  height: 365px;  
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
+
+main > .row {
+  width: 900px;
+  margin: auto;
+}
+
+.row1-col{
+  width: 33%;
+}
+
 .row1-col-img{
-  width: 291px;
-  height: 340px;
-  border-bottom-right-radius: 20px;
-  margin: 15px 10px 10px 10px;
+  width: 100%;  
+  border-bottom-right-radius: 20px;  
 }
+
 
 /* design main second row */
 .row2{
