@@ -15,7 +15,9 @@
   header{
     border: 1px solid black;     
     width: 100%;
-    height: 105px;
+    height: 105px;    
+    background-color: gray;
+    background: linear-gradient(to bottom rgb(144,144,144) rgb(170,170,170)); 
   }
 
   footer{
@@ -23,7 +25,10 @@
     width: 100%;
     height: 38px;
     position: fixed;
-    bottom: 0;    
+    bottom: 0;  
+    background-color: gray;
+    background: linear-gradient(to bottom rgb(170,170,170) rgb(144,144,144));
+
   }
   
   .column{
@@ -40,12 +45,11 @@
 
   /* design header search */
   .search{
-      background-color: rgb(144,144,144);            
+      /*background-color: rgb(144,144,144);            */
       height: 72px;
   }
 
- 
-  .a-language{
+   .a-language{
     color: white;
     text-decoration: none;    
     font-size: 13px;
@@ -54,7 +58,7 @@
   }  
  
   .a-language:hover{
-    color: rgb(59,89,152);
+    color: rgb(0,103,154);
     text-decoration: underline;
     font-weight: bold;
   }
@@ -62,8 +66,7 @@
 /* design search menu using ul
   .search-menu > ul{
     list-style: none;
-    padding: 0;
-    background-color: gray;
+    padding: 0;    
   }
 
   .search-menu > ul > li{
@@ -82,8 +85,7 @@
       list-style: none;
       padding: 0;
       /*margin: 72px 0 0 0 ; */
-      margin: 0;
-      background-color: rgb(144,144,144);
+      margin: 0;      
       text-align: center;
       height: 33px;
   }
@@ -107,7 +109,7 @@
 }
 
 .top-horizontal > ul > li > a:hover{
-  color: steelblue;
+  color: rgb(0,103,154);
   text-decoration: underline;
   font-weight: bold;
 }
@@ -120,7 +122,7 @@
     position: absolute;
     right: 0; 
     display: none;  
-    background-color:gray;  
+    background-color:rgb(144,144,144);  
   }
  
     .dropdown-menu:hover .dropdown-content {
@@ -138,10 +140,10 @@
   }
   
   .dropdown-content > a:hover{
-    color: steelblue;
+    color: rgb(0,103,154);
     text-decoration: underline;
     font-weight: bold;
-    background: lightgray;
+    background: rgb(188,188,188);
   }
   /* end design header horizontal menu*/
   
@@ -149,8 +151,7 @@
   .bottom-horizontal > ul {
     list-style: none;
     padding: 0;   
-    margin: 0;
-    background-color: rgb(144,144,144);
+    margin: 0;   
     text-align: center;
     }
     
@@ -179,7 +180,7 @@
 
 
 .bottom-horizontal > ul > li > a:hover{
-  color: steelblue;
+  color: rgb(0,103,154);
   text-decoration: underline;  
 }
 /* end design footer horizontal menu*/
@@ -247,7 +248,7 @@ main > .row > .row2 > .column {
 }
 
 .row2-col-detail > a:hover{
-  color: rgb(59,89,152);
+  color: rgb(0,103,154);
 }
 
 /* design row2 column no. 4 */
@@ -280,7 +281,7 @@ main > .row > .row2 > .column {
   font-size: 13px;   
 }
 
-.row2-col4-right-col > ul > li > a {
-  color: rgb(59,89,152);
+.row2-col4-right-col > ul > li > a:hover {
+  color: rgb(0,103,154);
 }
 /* end design row2 column no. 4 */
