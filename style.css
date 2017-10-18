@@ -219,6 +219,21 @@ main {
   border-bottom-right-radius: 20px;  
 }
 
+.row1-col-relarive{
+  position: relative;
+}
+.row1-col-img-bck{
+  position: absolute;
+  bottom: 5;
+  margin-right: 10px;
+}
+
+.row1-col-head-pic{
+  position: absolute;
+  bottom: 50px;
+  margin-right: 15px;
+}
+
 /* design main second row */
 .row2{
   border: 1px solid green;  
