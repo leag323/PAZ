@@ -201,7 +201,7 @@ main {
 
 .row1-col{
   width: 33%;
- /* margin-top: 20px*/
+  margin-top: 20px;
 }
 
 .row2-col{
@@ -219,7 +219,15 @@ main {
 
 .row1-col-relarive{
   position: relative;
+  width: 293px;
+  height: 355px;  
 }
+
+.row1-col-img{
+  width: 100%;
+  height: 100%;  
+}
+
 .row1-col-img-bck{
   position: absolute;
   bottom: 5;
