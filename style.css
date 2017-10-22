@@ -45,7 +45,8 @@
 
   /* design header search */
   .search{      
-      height: 72px;
+      height: 72px;  
+      position: relative;    
   }
 
    .a-language{
@@ -53,15 +54,26 @@
     text-decoration: none;    
     font-size: 13px;
     font-weight: bold;
-    margin-right: 800px;       
-    margin-top: 10px;
+    position: absolute;
+    margin: 16px 840px 0 0;                  
   }  
- 
+   
   .a-language:hover{
     color: rgb(0,103,154);
     text-decoration: underline;
     font-weight: bold;
   }  
+
+  .header-input-search{
+    position: absolute;
+    margin: 14px 900px 0 0;
+    border-top-right-radius: 10px; 
+    width: 126px;
+  }
+  .img-search{
+    position: absolute;
+    margin: 16px 1025px 0 0;
+  }
   /* end design header search */
   /* design paz logo and home image*/
   .img-paz-logo{
