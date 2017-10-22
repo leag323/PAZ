@@ -431,7 +431,12 @@ main > .row > .row1 > .column{
   border: 1px solid red;    
 }
 
-.cmltop-p1{
+.contact-main-lbotdiv{
+  position: relative;
+  border: 1px solid brown;  
+}
+
+.cmltop-p1, .cmlbot-p1{
   position: absolute;
   top: 0px;
   margin-right: 25px;
@@ -440,7 +445,12 @@ main > .row > .row1 > .column{
   font-weight: bold;
 }
 
-.contact-main-lbotdiv{
-  position: relative;
-  border: 1px solid brown;  
+
+.cmltop-p2, .cmlbot-p2{
+  position: absolute;
+  top: 30px;
+  margin-right: 25px;  
+  color: rgb(109,109,109);
+  font-size: 13px;
+  font-weight: bold;
 }
