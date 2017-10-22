@@ -53,7 +53,8 @@
     text-decoration: none;    
     font-size: 13px;
     font-weight: bold;
-    margin-right: 600;       
+    margin-right: 800px;       
+    margin-top: 10px;
   }  
  
   .a-language:hover{
@@ -66,12 +67,12 @@
   .img-paz-logo{
     position: absolute;
     bottom: -20;
-    margin-right: 200px;
+    margin-right: 170px;
   }
 
   .img-home{
     position: absolute;
-    margin-right: 350px;
+    margin-right: 340px;
   }
 
   /* design header horizontal menu*/
@@ -102,7 +103,7 @@
     font-size: 15px;
     font-weight: bold;
     height: 33px;
-    padding: 0 12px; 
+    padding: 0 13px; 
 }
 
 .top-horizontal > ul > li > a:hover{
