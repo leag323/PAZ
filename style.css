@@ -425,6 +425,14 @@ main > .row > .row1 > .column{
   color: rgb(128,137,146);
 }
 
+.input{
+  margin: 1px;
+}
+
+.input :focus {
+  border-color:rgb(102,140,199);
+}
+
 /* end design contact page main right div*/
 .contact-main-ltopdiv{  
   position: relative;
