@@ -166,36 +166,85 @@
             </ul>
         </nav>
     </header>
+
     <div class="contact-main">
         <div class="contact-row">
             <div class="contact-column contact-main-right-col">
-                <img class="img-contact1" src="pictures/contact_form_bg.png"/ alt="contact1">
+                <a class="a-contact-rcol" href="#">
+                    עמוד הבית>צור קשר
+                </a>
+                <p class="p-contact-rcol">
+                    צור קשר
+                </p>
+                <div class="contact-rcol-background">
+                    <img class="img-contact-rcol" src="pictures/contact_form_bg.png" / alt="contact1">
+                    <h3 class="contact-rcol-head">
+                        צור קשר
+                    </h3>
+                    <p class="contact-rcol-p">
+                        ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :
+                    </p>
+                    <form class="form-contact-rcol">
+                        <legend>
+                            * השדות המסומנים בכוכבית (*) הינם שדות חובה
+                        </legend>
+                        <lable for="fname">
+                            * שם פרטי 
+                        </lable>
+                        <input type="text" name="fname" id="fname" required/>
+                        <br>
+                        <lable for="lname">
+                            * שם משפחה
+                        </lable>
+                        <input type="text" name="lname" id="lname" required/>
+                        <br>
+                        <lable for="tel">
+                            * טלפון
+                        </lable>
+                        <input type="text" name="tel" id="tel" required/>
+                        <br>
+                        <lable for="email">
+                            * E-mail
+                        </lable>
+                        <input type="email" name="email" id="email" required/>
+                        <br>
+                        <textarea name="contactdesc" rows="7" cols="35" placeholder="yout request">
+                        </textarea>
+                        <br>
+                        <button type="submit">
+                            שלח
+                        </button>
+                    </form>
+                </div>
+
             </div>
             <!-- end class contact-column -->
             <div class="contact-column contact-main-left-col">
-                <div class="contact-main-rtopdiv">                                            
-                        <img class="img-contact2" src="pictures/cube_bg.png"/ alt="contact2">                
-                </div> <!-- end class contact-main-rtopdiv -->
-                <div class="contact-main-rbotdiv">
-                        <img class="img-contact2" src="pictures/cube_bg.png"/ alt="contact2">                
-                </div> <!-- end class contact-main-rbotdiv -->
-                
+                <div class="contact-main-ltopdiv">
+                    <img class="img-contact-lcoltop" src="pictures/cube_bg.png" / alt="contact2">
+                    <p class="cmltop-p1">
+                        פרטי יצירת קשר
+                    </p>
+                    <p class="cmtop-p2">
+                        פז חברת נפט בע"מ
+                    </p>
+                </div>
+                <!-- end class contact-main-rtopdiv -->
+                <div class="contact-main-lbotdiv">
+                    <img class="img-contact-lcolbot" src="pictures/cube_bg.png" / alt="contact2">
+                    <p class="cmlbot-p1">
+                        עוד בפז
+                    </p>
+                    <p class="cmbot-p2">
+                        ליצירת קשר עם דוברות פז
+                    </p>
+                </div>
+                <!-- end class contact-main-rbotdiv -->
+
             </div>
             <!-- end class contact-column -->
         </div>
         <!-- end class contact-row -->
-        <!--
-            <a href="#">
-                עמוד הבית
-            </a>
-            <p>
-                צור קשר
-            </p>
-
-            
-            
-            <img class="img-contact3" src="pictures/small_cube_bg.png"/ alt="contact3">
-        -->
     </div>
 
     <footer>

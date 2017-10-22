@@ -353,6 +353,7 @@ main > .row > .row1 > .column{
 .contact-main{
   width: 900px;
   margin: auto;
+  padding-top: 20px;
   padding-bottom: 50px;
 }
 
@@ -367,24 +368,79 @@ main > .row > .row1 > .column{
   clear: both;
 }
 
-/*end design contacr page main */
+/*end design contact page main */
+
 /* design contact page main right div*/
-.row1-col-img{
-  width: 100%;  
-  border-bottom-right-radius: 20px;  
+
+.contact-main-right-col{  
+  border: 1px solid blue;  
 }
 
-.contact-main-right-col{
+.a-contact-rcol{
+  text-decoration: none;  
+  font-size: 12px;
+  color:rgb(203,203,203)
+}
+
+.a-contact-rcol:hover {
+  color: rgb(0,103,154);
+}
+
+.p-contact-rcol{
+  text-decoration: underline;
+  color: rgb(203,203,203);
+  font-weight: bold;
+
+}
+
+.contact-rcol-background{
+  position: relative;
+}
+
+.img-contact-rcol{
+  display: block;
   margin-top: 20px;
 }
-.contact-main-rtopdiv{
-  height: 50%;
-  border: 1px solid red;  
-  position: relative;
+
+.contact-rcol-head{
+  position: absolute;
+  top: 10px;
+  margin-right: 10px;
+  color: rgb(0,92,160);
+  font-size: 15px;
 }
 
-.contact-main-rbotdiv{
-  height: 50%;
-  border: 1px solid brown;
+.contact-rcol-p{
+  position: absolute;
+  top: 30px;
+  margin-right: 10px;
+  color: rgb(186,186,154);
+  font-size: 15px;
+}
+.form-contact-rcol{
+  position: absolute;
+  top: 90px;
+  margin-right: 10px;
+  font-size: 12px;
+  color: rgb(128,137,146);
+}
+
+/* end design contact page main right div*/
+.contact-main-ltopdiv{  
   position: relative;
+  border: 1px solid red;    
+}
+
+.cmltop-p1{
+  position: absolute;
+  top: 0px;
+  margin-right: 25px;
+  color: rgb(0,92,160);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.contact-main-lbotdiv{
+  position: relative;
+  border: 1px solid brown;  
 }
