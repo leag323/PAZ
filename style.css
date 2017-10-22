@@ -277,6 +277,10 @@ main > .row > .row1 > .column{
   color: white;
   font-size: 13px;
 }
+
+.row1-col-read-more:hover{
+  color: rgb(0,103,154);
+}
 /* design main second row */
 
 .row2-col-background{
