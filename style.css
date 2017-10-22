@@ -435,8 +435,8 @@ main > .row > .row1 > .column{
 }
 
 .contact-sub-but{
-  color: white;
-  /*background-color: rgb(2,79,134);*/
+  font-size: 14px;
+  color: white; 
   background: linear-gradient(rgb(10,161,226), rgb(2,79,134));
   margin-right: 230px;
 }
