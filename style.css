@@ -66,12 +66,12 @@
   .img-paz-logo{
     position: absolute;
     bottom: -20;
-    margin-right: 70px;
+    margin-right: 200px;
   }
 
   .img-home{
     position: absolute;
-    margin-right: 220px;
+    margin-right: 350px;
   }
 
   /* design header horizontal menu*/
@@ -102,7 +102,7 @@
     font-size: 15px;
     font-weight: bold;
     height: 33px;
-    padding: 0 29px; 
+    padding: 0 12px; 
 }
 
 .top-horizontal > ul > li > a:hover{
@@ -120,7 +120,7 @@
     right: 0; 
     display: none;  
     z-index: 1;
-    background-color:rgb(144,144,144);  
+    background-color:rgb(144,144,144);      
   }
  
     .dropdown-menu:hover .dropdown-content {
@@ -129,12 +129,13 @@
   
   .dropdown-content > a {
     display: block;
-    text-decoration: none;
-    text-align: right;
+    text-decoration: none; 
+    text-align: right;   
     color: white;    
     font-size: 15px;  
     font-weight: bold;
-    padding-top: 5px;        
+    padding: 5px;        
+    width: 155px;
     border-bottom: 1px solid white;   
   }
   
