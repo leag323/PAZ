@@ -428,14 +428,12 @@ main > .row > .row1 > .column{
 /* end design contact page main right div*/
 .contact-main-ltopdiv{  
   position: relative;
-  margin-top: 50px;
-  /*border: 1px solid red;    */
+  margin-top: 50px;  
 }
 
 .contact-main-lbotdiv{
   position: relative;
-  margin-top: 50px;
-  /* border: 1px solid brown;  */
+  margin-top: 50px; 
 }
 
 .cmltop-p1, .cmlbot-p1{
