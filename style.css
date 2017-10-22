@@ -425,14 +425,21 @@ main > .row > .row1 > .column{
   color: rgb(128,137,146);
 }
 
-.input{
-  margin: 1px;
+
+.contact-input{
+  margin: 1px;  
 }
 
-.input :focus {
+.contact-input :focus {
   border-color:rgb(102,140,199);
 }
 
+.contact-sub-but{
+  color: white;
+  /*background-color: rgb(2,79,134);*/
+  background: linear-gradient(rgb(10,161,226), rgb(2,79,134));
+  margin-right: 230px;
+}
 /* end design contact page main right div*/
 .contact-main-ltopdiv{  
   position: relative;
