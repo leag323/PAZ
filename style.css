@@ -415,8 +415,10 @@ main > .row > .row1 > .column{
   top: 30px;
   margin-right: 10px;
   color: rgb(114,113,109);
-  font-size: 15px;
+  font-size: 13px;
+  font-weight: bold;
 }
+
 .form-contact-rcol{
   position: absolute;
   top: 90px;
@@ -432,6 +434,11 @@ main > .row > .row1 > .column{
 
 .contact-input :focus {
   border-color:rgb(102,140,199);
+}
+
+.contact-textarea{
+  font-size: 13px;
+  color: rgb(109,109,109);    
 }
 
 .contact-sub-but{
