@@ -383,19 +383,21 @@ main > .row > .row1 > .column{
   color: rgb(0,103,154);
 }
 
-.p-contact-rcol{
-  text-decoration: underline;
-  color: rgb(203,203,203);
-  font-weight: bold;
+.p-contact-rcol{  
+  color: rgb(114,113,109);
+  font-weight: bold;  
 
 }
 
 .contact-rcol-background{
   position: relative;
+  width: 385px;
+  height: 356px;
 }
 
 .img-contact-rcol{
   display: block;
+  width: 100%;
   margin-top: 20px;
 }
 
@@ -411,7 +413,7 @@ main > .row > .row1 > .column{
   position: absolute;
   top: 30px;
   margin-right: 10px;
-  color: rgb(186,186,154);
+  color: rgb(114,113,109);
   font-size: 15px;
 }
 .form-contact-rcol{
