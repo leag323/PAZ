@@ -219,7 +219,7 @@ main > .row > .row1 > .column{
 
 .row1-col{
   width: 33%;
-  margin-top: 25px;
+  margin-top: 30px;  
 }
 
 .row2-col{
@@ -282,7 +282,8 @@ main > .row > .row1 > .column{
 .row2-col-background{
   position: relative;  
   width: 292px;
-  height: 216px;  
+  /*height: 216px;  */
+  height: 219px;
 }
 
 .row2-col-img-bck{
@@ -307,8 +308,8 @@ main > .row > .row1 > .column{
 
 .row2-col-detail{
   position: absolute;    
-  bottom: 20px;
-  margin-right: 150px;
+  bottom: 15px;
+  margin-right: 170px;
   color: rgb(114,113,109);
   font-size: 13px;
 }
