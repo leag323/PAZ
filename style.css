@@ -29,6 +29,8 @@
   }
    
   main{
+    width: 900px;
+    margin: auto;
     padding-bottom: 50px;
   }
 
@@ -215,11 +217,6 @@ main > .row > .row1 > .column{
   clear: both;
 }
 
-main {
-  width: 900px;
-  margin: auto;
-}
-
 .row1-col{
   width: 33%;
   margin-top: 25px;
@@ -351,3 +348,43 @@ main {
   margin-right: 180px;
 }
 /* end design row2 column no. 3 */
+
+/*design contact page main */
+.contact-main{
+  width: 900px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.contact-column{
+  float: right;          
+  border: 1px solid green;
+}
+
+.contact-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*end design contacr page main */
+/* design contact page main right div*/
+.row1-col-img{
+  width: 100%;  
+  border-bottom-right-radius: 20px;  
+}
+
+.contact-main-right-col{
+  margin-top: 20px;
+}
+.contact-main-rtopdiv{
+  height: 50%;
+  border: 1px solid red;  
+  position: relative;
+}
+
+.contact-main-rbotdiv{
+  height: 50%;
+  border: 1px solid brown;
+  position: relative;
+}
