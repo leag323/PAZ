@@ -358,8 +358,8 @@ main > .row > .row1 > .column{
 }
 
 .contact-column{
-  float: right;          
-  border: 1px solid green;
+  float: right;            
+  margin-right: 30px;
 }
 
 .contact-row:after {
@@ -372,9 +372,6 @@ main > .row > .row1 > .column{
 
 /* design contact page main right div*/
 
-.contact-main-right-col{  
-  border: 1px solid blue;  
-}
 
 .a-contact-rcol{
   text-decoration: none;  
@@ -428,12 +425,14 @@ main > .row > .row1 > .column{
 /* end design contact page main right div*/
 .contact-main-ltopdiv{  
   position: relative;
-  border: 1px solid red;    
+  margin-top: 50px;
+  /*border: 1px solid red;    */
 }
 
 .contact-main-lbotdiv{
   position: relative;
-  border: 1px solid brown;  
+  margin-top: 50px;
+  /* border: 1px solid brown;  */
 }
 
 .cmltop-p1, .cmlbot-p1{
@@ -489,9 +488,29 @@ main > .row > .row1 > .column{
 
 .cmlbot-a3{
   position: absolute;
-  top: 55px;
+  top: 57px;
   margin-right: 25px;
-  color: blue;
+  color: rgb(0,77,240);
   font-size: 13px;  
   text-decoration: none;
+}
+
+.cmlbot-p4{
+  position: absolute;
+  top: 60px;
+  margin-right: 25px;
+  color: rgb(109,109,109);
+  font-size: 13px;  
+}
+.cmlbot-a5{
+  position: absolute;
+  top: 87px;
+  margin-right: 25px;
+  color: rgb(0,77,240);
+  font-size: 13px;  
+  text-decoration: none;
+}
+
+.cmlbot-a3:hover, .cmlbot-a5:hover{
+  color: rgb(0,92,160);
 }
